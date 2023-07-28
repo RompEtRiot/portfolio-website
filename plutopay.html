@@ -26,7 +26,7 @@
            <section title="hero">
                 <div title="header">
                     <h1>PlutoPay</h1>
-                    <h2>Hidden transaction fees and marked up exchange rates</h2>
+                    <h3>Hidden transaction fees and marked up exchange rates</h3>
                     <p>These extra-costs are felt by those travelling,boarding, and shopping abroad — in person and online. PlutoPay is a thesis project that answers the call for a cost-conscious and secure way to pay for personal and group expenses, outside of one’s home or host country.</p>
                 </div>
                 <div title="list">
@@ -42,12 +42,12 @@
                         <source srcset="img/plutopay/Hero_PlutoPay@1x.png"
                     media="(max-width:767px)">
                         <img src="img/plutopay/Hero_PlutoPay@2x.png"
-                    alt="Constant Health onboarding thumbnail">
+                    alt="Photo of finished PlutoPay UI displayed on two phone screens">
                     </picture>
                 </div>
             </section>
             <section title="challenge">
-                <div title="rule"><h3>Challenge</h2></div>
+                <div title="rule"><h2>Challenge</h2></div>
                 <div>
                     <p>How will PlutoPay distinguish itself from a litany of payment apps already available? This was the first question I asked myself, and set about solving for. To inform this question I conducted a SWOT analysis of PlutoPay’s closest competitors, and learned:</p>
                     <ul>
@@ -61,7 +61,7 @@
                 </div>
             </section>
             <section title="audience">
-                <div title="rule"><h3>Audience</h2></div>
+                <div title="rule"><h2>Audience</h2></div>
                 <div>
                     <p>The app's biggest draw is that it facilitates not only individual and domestic transactions, but group and international transactions as well. There are many reasons why a user would seek an app with this type of dual-purpose, as represented by the personae:</p>
                     <ul>
@@ -78,21 +78,269 @@
                             <p><b>Core motivation is</b> to share expenses while travelling internationally with their friends.</p>
                         </div>
                         <div title="traveller_2">
-                            <img src="img/plutopay/Persona_Zoe@1x.jpg" width="140" height="140" alt="A photo of a young male traveller">
+                            <img src="img/plutopay/Persona_Zoe@1x.jpg" width="140" height="140" alt="A photo of a young female traveller">
                             <h4>Solo Traveller</h4>
                             <p><b>Core motivation is</b> to set personal spending limits and alerts to manage their spending.</p>
                         </div>
                         <div title="student">
-                            <img src="img/plutopay/Persona_Sohaib@1x.jpg" width="140" height="140" alt="A photo of a young male traveller">
+                            <img src="img/plutopay/Persona_Sohaib@1x.jpg" width="140" height="140" alt="A photo of a young male university student">
                             <h4>International Student</h4>
                             <p><b>Core motivation is</b> transparency concerning fee summaries and transaction journeys..</p>
                         </div>
                         <div title="shopper">
-                            <img src="img/plutopay/Persona_Margo@1x.jpg" width="140" height="140" alt="A photo of a young male traveller">
+                            <img src="img/plutopay/Persona_Margo@1x.jpg" width="140" height="140" alt="A photo of a mature female shopper">
                             <h4>Online Shopper</h4>
                             <p><b>Core motivation is</b> is expense tracking and saving.</p>
                         </div>
+                        <p>The personae were informed by user interviews and supplementary research. Findings not only supported the decision to specialize in group and domestic transactions but helped to identify the key demographic: millennial and Gen-Z.</p>
                 </section>
+                <div>
+                    <h3>Millennials and Gen-Z are most likely to own a phone, travel outside of their own country, and shop internationally.</h3>
+                    <ul>
+                        <li>91% of shoppers shop online using their smartphone.</li>
+                        <li>95% of Gen-Z own a smartphone and use it for 10+ hours per day.</li>
+                        <li>57% of online shoppers shop internationally.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>When interviewing this audience interviewees expressed that they:</h3>
+                    <ul>
+                        <li>Seek payment apps with predictable, traceable, and accurate, transaction journeys, to lessen their anxieties.</li>
+                        <li>Will convert to a payment app if it solves a situational need that can not be solved with traditional means.</li>
+                    </ul>
+                </div>
+            </section>
+            <section title="creation">
+                <div title="rule"><h2>Creation</h2></div>
+                <div title="affinity">
+                    <h4>Affinity Mapping</h4>
+                    <p>While the motivations of personae informed PlutoPay’s mobile-first approach, user interviews were used to prioritize features. After grouping qualitative information into categories (affinity mapping), features were sorted based on required, desirable, predicted and unpredicted.</p>
+                    <table title="Features">
+                        <tr>
+                            <th>Required Features</th>
+                            <th>Desirable Features</th>
+                        </tr>
+                        <tr>
+                            <td>Track and request transfers</td>
+                            <td>Enable reminders and set due dates</td>
+                        </tr>
+                        <tr>
+                            <td>Choose from paid and unpaid transfer methods</td>
+                            <td>Rate users based on total peer to peer transfers paid on time</td>
+                        </tr>
+                        <tr>
+                            <td>Succinct fee summaries</td>
+                            <td>Visually track transfer journey</td>
+                          </tr>
+                        <tr>
+                            <td>Create multiple virtual cards</td>
+                            <td>Sign-out of all active devices using global logout</td>
+                        </tr>
+                        <tr>
+                            <td>Create group cards</td>
+                            <td>Search through and filter transaction history</td>
+                          </tr>
+                        <tr>
+                            <td>Temporarily freeze a card, cards, or an account</td>
+                            <td>Rush transactions via a small fee</td>
+                        </tr>
+                      </table>
+                </div>
+                <div title="flows">
+                    <h4>User Flows</h4>
+                    <p>When crafting user flows, required and desirable features as well as the needs of traveller personae informed the decision to focus on transfer, card, and currency flows.</p>
+                    <div title="set of flows">
+                        <div title="column 1">
+                            <picture title="transfer">
+                                <source srcset="img/plutopay/UserFlow_Transfer@1x.png"
+                            media="(max-width:767px)">
+                                <img src="img/plutopay/UserFlow_Transfer@2x.png"
+                            alt="Transfer user flow">
+                            </picture>
+                        </div>
+                        <div title="column 2">
+                            <picture title="cards">
+                                <source srcset="img/plutopay/UserFlow_Cards@1x.png"
+                            media="(max-width:767px)">
+                                <img src="img/plutopay/UserFlow_Cards@2x.png"
+                            alt="Cards user flow">
+                            </picture>
+                        </div>
+                        <div title="column 3">
+                            <picture title="currency">
+                                <source srcset="img/plutopay/UserFlow_Currency@1x.png"
+                            media="(max-width:767px)">
+                                <img src="img/plutopay/UserFlow_Currency@2x.png"
+                            alt="Currency user flow">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div title="card sort">
+                    <h4>Card Sort</h4>
+                    <p>After completing the initial site-map of the app a card sort was conducted, in which we learned and applied the following:</p>
+                        <ul>
+                            <li><b>Expense history:</b>Access card specific expense histories.</li>
+                            <li><b>Global expense:</b>Integrate expense features throughout the app, opposed to isolated to a single page.</li>
+                            <li><b>Foreign vs home transfers:</b>Pay or receive in a foreign or home currency, during the transfer process.</li>
+                            <li><b>Freeze card:</b>Freeze a card via profile and within settings.</li>
+                            <li><b>Separate flows:</b>Separate features related to cards and currency.</li>
+                        </ul>
+                        <picture title="IA">
+                            <source srcset="img/plutopay/IA@1x.png"
+                        media="(max-width:767px)">
+                            <img src="img/plutopay/IA@2x.png"
+                        alt="Current information architecture build">
+                        </picture>
+                </div>
+            </section>
+            <section title="testing">
+                <div>
+                    <h4>Usability Test Insights</h4>
+                    <p>Completion of high fidelity wireframes were followed by both a usability test and a preference test. This informed where and how to refine the wireframes, as well as time allocation.</p>
+                    <h5>Goal</h5>
+                    <ol>
+                        <l1>Observing the speed and accuracy of task completion and;</l1>
+                        <li>Gathering qualitative information on how participants understood core features and their relation to each-other.</li>
+                    </ol>
+                    <h5>Objectives</h5>
+                    <ul>
+                        <li>Do participants understand that the app facilitates both domestic and foreign transfers?</li>
+                        <li>Do participants understand that currencies and cards held operate independently from one another?</li>
+                        <li>Do participants understand that currencies refer to monies held and transfers are the sending of held monies?</li>
+                    </ul>
+                </div>
+                <div title="testing results">
+                    <div title="column 1">
+                        <h3>Currency use</h3>
+                        <picture title="currency use">
+                            <source srcset="img/plutopay/Testing_Cards@1x.png"
+                        media="(max-width:767px)">
+                            <img src="img/plutopay/Testing_Cards@2x.png"
+                        alt="Rework of PlutoPay's currency screen">
+                        </picture>
+                            <div title="paragraph">
+                            <p><b>Problem:</b>Unclear that currencies are not tethered to individual cards.</p>
+                            <p><b>Solution:</b></p>
+                            <ul>
+                                <li>(a) Add the ability for users to limit the currencies an card can draw from, with the inferred default being draw from any available currency.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div title="column 2">
+                        <h3>Transfer method</h3>
+                        <picture title="transfer method">
+                            <source srcset="img/plutopay/Testing_Transfer@1x.png"
+                        media="(max-width:767px)">
+                            <img src="img/plutopay/Testing_Transfer@2x.png"
+                        alt="Rework of PlutoPay's transfer method selection screen">
+                        </picture>
+                            <div title="paragraph">
+                            <p><b>Problem:</b>Unclear that transfers can draw from users currency portfolio.</p>
+                            <p><b>Solution:</b></p>
+                            <ul>
+                                <li>(b) Notify users if they have held currencies available that they can draw from for the transfer.</li>
+                                <li>(c) Allow users to transfer from held currencies, if the transfer currency and held currency match.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div title="column 3">
+                        <h3>Trust Rating</h3>
+                        <picture title="trust rating">
+                            <source srcset="img/plutopay/Testing_Rating@1x.png"
+                        media="(max-width:767px)">
+                            <img src="img/plutopay/Testing_Rating@2x.png"
+                        alt="Rework of how a contacts trustworthiness is expressed to users">
+                        </picture>
+                            <div title="paragraph">
+                            <p><b>Problem:</b>Same symbol is used to denote trust rating and primary card.</p>
+                            <p><b>Solution:</b></p>
+                            <ul>
+                                <li>(d) Change trust ratings star to coloured-dot system. In which red means warning, yellow means caution, and green means trustworthy.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="https://www.figma.com/proto/k2vNcrBCN3JMGZ5kTfR42R/4.7-Usability-Prototype-Revision-v1_Tatjana-Dudas?page-id=2%3A16&type=design&node-id=8-1409&viewport=616%2C545%2C0.08&t=YNOdvFhUeMiVmALt-1&scaling=min-zoom&starting-point-node-id=15%3A1821&mode=design" target="_blank"> Experience prototype
+                </div>
+            </section>
+            <section title="Execution">
+                <div title="quick dash showcase">
+                    <div title="column 1">
+                        <picture title="quick dash">
+                            <source srcset="img/plutopay/Execution_Home@1x.png"
+                        media="(max-width:767px)">
+                            <img src="img/plutopay/Execution_Home@2x.png"
+                        alt="Hi fidelity screen of PlutoPay's main dashboard">
+                        </picture>
+                    </div>
+                    <div title="column 2">
+                        <h3>Quick dash</h3>
+                        <p>The dashboard provides easy access to a person’s primary card and recent activity. Allowing them to make purchases or transfer on dashboard load.</p>
+                        <ul>
+                            <li>Access primary card</li>
+                            <li>Freeze primary card</li>
+                            <li>Quick buy or transfer</li>
+                            <li>View recent activity</li>
+                        </ul>
+                    </div>
+                </div>
+                <div title="pay showcase">
+                    <div title="column 1">
+                        <h3>Pay, your way</h3>
+                        <p>Users can select from multiple transfer methods with varying fees. These fees allow PlutoPay to expand its suite of holdable currencies that would otherwise be too expensive to adopt. Perfect for travel.</p>
+                        <ul>
+                            <li>Multiple transfer speeds</li>
+                            <li>Low-cost options</li>
+                            <li>Fee transparency</li>
+                            <li>Multiple methods</li>
+                        </ul>
+                    </div>
+                    <div title="column 2">
+                        <picture title="pay">
+                            <source srcset="img/plutopay/Execution_Transfer@1x.png"
+                        media="(max-width:767px)">
+                            <img src="img/plutopay/Execution_Transfer@2x.png"
+                        alt="Hi fidelity screen of PlutoPay's transfer method selection">
+                        </picture>
+                    </div>
+                </div>
+                <div title="costs showcase">
+                    <div title="column 1">
+                        <picture title="costs">
+                            <source srcset="img/plutopay/Execution_Summary@1x.png"
+                        media="(max-width:767px)">
+                            <img src="img/plutopay/Execution_Summary@2x.png"
+                        alt="Hi fidelity screen of PlutoPay's fee summary">
+                        </picture>
+                    </div>
+                    <div title="column 2">
+                        <h3>Clear cut costs</h3>
+                        <p>Fees are highlighted during the course of all PlutoPay transactions. Ensuring exchange and transfer fees do not catch users off-guard.</p>
+                        <ul>
+                            <li>Fee estimation</li>
+                            <li>Archive transactions</li>
+                            <li>Rate history</li>
+                            <li>Detailed summaries</li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="https://www.figma.com/proto/Xo7AOzQZ2syXuszmp0IwJe/6.7-Iterative-Journey-v1_Tatjana-Dudas?page-id=2%3A16&type=design&node-id=1393-11051&viewport=523%2C549%2C0.08&t=yKczRBSLsXdWzGZ8-1&scaling=min-zoom&starting-point-node-id=1380%3A13036&show-proto-sidebar=1&mode=design"> Explore the Currency Flow
+            </section>
+            <section title="reflection">
+                <div>
+                    <div title="column 1">
+                        <h4>What I learned</h4>
+                        <p>The information density of the transfer and currency flows posed an interesting challenge.  Engineering ways of living up to PlutoPays dedication to transparency, while crafting a straightforward user experience and maintaining a clean interface, was rewarding.</p>
+                    </div>
+                    <div title="column 2">
+                        <h4>What I would change</h4>
+                        <p>I would expand on how expenses are tracked and categorized. Initially a budgeting system was planned, however user interviews revealed that traditional budgeting methods did not resonate with users. I’d like to explore these attitudes further using targeted surveys and a larger pool of interviewees.</p>
+                    </div>
+                    <div title="column 3">
+                        <h4>Next steps</h4>
+                        <p>The next step would be optimizing PlutoPay for the web. PlutoPay’s audience are primarily mobile-first and on-the-go. Which informed the mobile-first approach to the project, and the prioritization of a mobile prototype for the purpose of testing. However, the student and shopper personae would benefit from the implementation of a web-app.</p>
+                    </div>
+                </div>
             </section>
         </main>
     <!--START of footer-->       
