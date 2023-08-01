@@ -1,0 +1,14 @@
+/*
+Colors used:
+Primary Color (Blue): #094FBE;
+Secondary Color (off_white): #F1F1F1;
+Secondary Color (off_black): #111111;
+*/
+
+body {
+    background-color: #F1F1F1;
+    font-family: 'PPMori', sans-serif;
+    font-style: nor;
+    font-weight: 400; 
+    src: local("PPMori"), url("https://mdn.github.io/web-fonts/LatoReg.ttf");
+}
