@@ -5,6 +5,8 @@ Secondary Color (off_white): #F1F1F1;
 Secondary Color (off_black): #111111;
 */
 
+
+/*FONT IMPORT_MORI GOTHIC*/
 /*Extralight*/
 @font-face {
     font-family: 'Mori',sans-serif;
@@ -71,6 +73,8 @@ Secondary Color (off_black): #111111;
     font-style: italic;
 }
 
+
+/*IMAGE RULES*/
 body {
     background-color: #F1F1F1;
     font-family: 'Mori', sans-serif;
@@ -106,6 +110,26 @@ body {
     font-style: normal;
   }
 
+  
+/*IMAGE RULES*/
   img {
     width: 100%;
+  }
+
+
+/*HYPERLINK STYLING*/
+  a {
+    color: #487feb;
+    text-decoration: none; /* No underlining, before hover */
+  }
+  a:hover,
+  a:focus {
+  color: #cc6540;
+  text-decoration: underline; /* Underlining, on hover */
+  }
+  a:visited { /* visited link */
+    color: #487feb;
+  }
+  a:active { /* selected link */
+    color: #002f7b;
   }
