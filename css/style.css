@@ -5,6 +5,17 @@ Secondary Color (off_white): #F1F1F1;
 Secondary Color (off_black): #111111;
 */
 
+/*ID's*/
+/*
+#hero {
+}
+
+#case_studies {
+}
+
+#contact {
+}
+*/
 
 /*FONT IMPORT_MORI GOTHIC*/
 /*Extralight*/
@@ -116,20 +127,61 @@ body {
     width: 100%;
   }
 
+  
+/*BUTTON STYLING*/
+  .button {
+    display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block*/
+    background-color: #094FBE;
+    color: #F1F1F1; /* override default link colour */
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #dadada; /* border-width, type, colour */
+    transition: 0.2s opacity;
+  }
 
-/*HYPERLINK STYLING*/
+  /*Normal states*/
+  .button:hover {
+    color: #F1F1F1;
+    opacity: 0.8; /* reduces opacity of button to 80% */
+    text-decoration: underline;
+  }
+  .button:visited {
+    color:#bababa
+  }
+  .button:active {
+    color: #111111;
+  }
+
+  /*Contact states*/
+  .button.contact {
+    background-color: transparent;
+    color: #094FBE;
+    /*text-transform: uppercase;*/
+    border: 2px solid #094FBE;
+  }
+  .button.contact:hover {
+    background-color: #094FBE;
+    color: #F1F1F1;
+  }
+  .button.contact:active {
+    color: #111111;
+  }
+
+
+  /*HYPERLINK STYLING*/
   a {
-    color: #487feb;
-    text-decoration: none; /* No underlining, before hover */
+    color: #0d59ef;
+    text-decoration: none; /* no underlining, before hover */
   }
   a:hover,
   a:focus {
   color: #cc6540;
-  text-decoration: underline; /* Underlining, on hover */
+  text-decoration: underline; /* underlining, on hover */
   }
   a:visited { /* visited link */
-    color: #487feb;
+    color: #797979;
   }
   a:active { /* selected link */
-    color: #002f7b;
+    color: #111111;
   }
