@@ -13,11 +13,11 @@
     <!--START of body-->   
     <body>
         <header>
-            <div>
-                <img src="img/global/logo.svg" width="40" height="40" alt="Tatjana Dudas"> Tatjana Dudas
+            <div class="container">
+                <img src="img/global/logo.svg" class="logo" width="30" height="30" alt="Tatjana Dudas"><br><b>Tatjana Dudas</b>
                 <nav>
                     <ul>
-                    <li><a href="about.html">About</a></li><!--About-->
+                    <li><a href="about.html">About</a></li><!--About--> 
                     <li><a href="work.html">Case Study</a></li><!--Work-->
                     <li><a href="#contact">Let's Talk</a></li><!--Contact-->
                     </ul>
@@ -26,41 +26,43 @@
         </header>
     <!--START of main-->
         <main>
-            <section id="hero"> 
-                    <h1>I’m Tatjana<br><span>a UX designer based out of Canada.</span></h1>
-                    <p>I solve people-problems by observing how humans interact with each other, services, and the world at large.</p>
-            </section>
-            <section id="case_studies">
-                <div>
-                    <h2>Case studies</h2>
-                    <div><!--PLUTOPAY-->
-                        <div>
-                            <picture>
-                                <source srcset="img/plutopay/thumb_pluto@1x.png"
-                            media="(max-width:767px)">
-                                <img src="img/plutopay/thumb_pluto@2x.png"
-                            alt="PlutoPay thumbnail">
-                            </picture>
+            <section class="container">
+                <div id="hero"> 
+                        <h1>Hi, my name is Tatjana<br></h1><span><h4> I'm a UX designer based out of Canada.</h4></span></h1>
+                        <p>I solve people-problems by observing how humans interact with each other, services, and the world at large.</p>
+                </div>
+                <div id="case_studies">
+                    <div>
+                        <h2>Case studies</h2>
+                        <div class="row"><!--PLUTOPAY-->
+                            <div>
+                                <picture>
+                                    <source srcset="img/plutopay/thumb_pluto@1x.png"
+                                media="(max-width:767px)">
+                                    <img src="img/plutopay/thumb_pluto@2x.png"
+                                alt="PlutoPay thumbnail">
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>PlutoPay</h3>
+                                <p>A thesis project that answers the call for a cost-conscious and secure way to pay for personal and group expenses, outside of one’s home or host country, crafted from the ground up.</p>
+                                <a href="plutopay.html" class="button">Read more</a>
+                            </div>
                         </div>
-                        <div>
-                            <h3>PlutoPay</h3>
-                            <p>A thesis project that answers the call for a cost-conscious and secure way to pay for personal and group expenses, outside of one’s home or host country, crafted from the ground up.</p>
-                            <a href="plutopay.html" class="button">Read more</a>
-                        </div>
-                    </div>
-                    <div><!--CH ONBOARDING-->
-                        <div>
-                            <picture>
-                                <source srcset="img/ch_onboarding/thumb_ch@1x.png"
-                            media="(max-width:767px)">
-                                <img src="img/ch_onboarding/thumb_ch@2x.png"
-                            alt="Constant Health onboarding thumbnail">
-                            </picture>
-                        </div>
-                        <div>
-                            <h3>Constant Health Extended Onboarding</h3>
-                            <p>A look at improving the progressive onboarding of the Constant Health app to help new and returning users recall and revisit what they have learned.</p>
-                            <a href="#" class="button">Read more</a>
+                        <div class="row"><!--CH ONBOARDING-->
+                            <div>
+                                <picture>
+                                    <source srcset="img/ch_onboarding/thumb_ch@1x.png"
+                                media="(max-width:767px)">
+                                    <img src="img/ch_onboarding/thumb_ch@2x.png"
+                                alt="Constant Health onboarding thumbnail">
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>Constant Health Extended Onboarding</h3>
+                                <p>A look at improving the progressive onboarding of the Constant Health app to help new and returning users recall and revisit what they have learned.</p>
+                                <a href="#" class="button">Read more</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -68,18 +70,17 @@
         </main>
     <!--START of footer-->       
         <footer id="contact">
-            <section title="footer">
+            <section title="footer" class="container">
                 <div title="outreach">
                  <h2>Get in Touch</h2>
                     <p>
                     Like my work? Get in touch:<br>
-                    E: <a href="mailto:hi@dudasgraphics.design" class="button contact">tjdudas.design@gmail.com</a> <br><!--Will need to replace with new domain-->
-                    P: <a href="tel:0000000000">(000)000-00000</a><!--Possibly use a telegram number-->
+                    <a href="mailto:hi@dudasgraphics.design" class="button contact">tjdudas.design@gmail.com</a> <br><!--Will need to replace with new domain-->
+                    <!--P: <a href="tel:0000000000">(000)000-00000</a>Possibly use a telegram number-->
                     </p>
                 </div>
                 <div title="links">
-                    <h3>Social</h3><!--START of social links-->
-                    <a href="https://www.behance.net/tatjanaduds" target="_blank">
+                    <a href="https://www.behance.net/tatjanaduds" target="_blank" class="icon_link">
                         <!--<img src="http://via.placeholder.com/32x32" alt="Behance logo">-->
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_973_219)">
@@ -96,10 +97,9 @@
                             <rect width="48" height="48" fill="white"/>
                             </clipPath>
                             </defs>
-                            </svg>Behance
+                            </svg>
                     </a>
-                    <br>
-                    <a href="https://github.com/RompEtRiot" target="_blank">
+                    <a href="https://github.com/RompEtRiot" target="_blank" class="icon_link">
                         <!--<img src="http://via.placeholder.com/32x32" alt="GitHub logo">-->
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_973_221)">
@@ -111,10 +111,9 @@
                             <rect width="48" height="48" fill="white"/>
                             </clipPath>
                             </defs>
-                            </svg>Github
+                            </svg>
                     </a>
-                    <h3>Contact</h3><!--START of contact links-->
-                    <a href="https://www.linkedin.com/in/tatjanadudas" target="_blank">
+                    <a href="https://www.linkedin.com/in/tatjanadudas" target="_blank" class="icon_link">
                         <!--<img src="http://via.placeholder.com/32x32" alt="linked-in logo">-->
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_973_218)">
@@ -126,31 +125,11 @@
                             <rect width="48" height="48" fill="white"/>
                             </clipPath>
                             </defs>
-                            </svg>Linked-In
-                    </a>
-                    <h3>Explore</h3><!--START of explore links-->
-                    <a href="https://medium.com/@tjdudas.design" target="_blank">
-                        <!--<img src="http://via.placeholder.com/32x32" alt="medium logo">-->
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_973_220)">
-                            <rect width="48" height="48" fill="white"/>
-                            <g clip-path="url(#clip1_973_220)">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M48 0H0V48H48V0ZM15.281 35.3586C21.5116 35.3586 26.5623 30.2729 26.5623 23.9998C26.5623 17.7267 21.5112 12.6414 15.281 12.6414C9.05076 12.6414 4 17.7251 4 23.9998C4 30.2745 9.05037 35.3586 15.281 35.3586ZM33.2975 34.692C36.4126 34.692 38.9381 29.9052 38.9381 23.9998C38.9381 18.096 36.4126 13.3076 33.2975 13.3076C30.1823 13.3076 27.6568 18.096 27.6568 23.9998C27.6568 29.9037 30.1823 34.692 33.2975 34.692ZM42.0161 33.5796C43.1117 33.5796 44 29.2908 44 23.9998C44 18.7093 43.1124 14.42 42.0165 14.42C40.9205 14.42 40.0322 18.7104 40.0322 23.9998C40.0322 29.2892 40.9205 33.5796 42.0161 33.5796Z" fill="black"/>
-                            </g>
-                            </g>
-                            <defs>
-                            <clipPath id="clip0_973_220">
-                            <rect width="48" height="48" fill="white"/>
-                            </clipPath>
-                            <clipPath id="clip1_973_220">
-                            <rect width="48" height="48" fill="white"/>
-                            </clipPath>
-                            </defs>
-                            </svg>Medium
+                            </svg>
                     </a>
                 </div>
-                <div title="copyright">
-                    <p>Copyright © 2023 Tatjana Dudás. All rights reserved.</p>
+                <div>
+                    <p>Copyright © 2023 Tatjana Dudás. <br>All rights reserved.</p>
                 </div>
             </section>
         </footer>

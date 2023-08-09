@@ -1,91 +1,121 @@
-/*
-Colors used:
+/*COLOURS USED----------------------
 Primary Color (Blue): #094FBE;
 Secondary Color (off_white): #F1F1F1;
 Secondary Color (off_black): #111111;
-*/
-
-/*ID's*/
-/*
-#hero {
-}
-
-#case_studies {
-}
-
-#contact {
-}
-*/
-
-/*FONT IMPORT_MORI GOTHIC*/
+-----------------------------------*/
+/*FONT IMPORT*/
 /*Extralight*/
-@font-face {
-    font-family: 'Mori',sans-serif;
-    src: url('./web-fonts/PPMori/PPMori-Extralight.woff') format('woff');
-    font-weight:100;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Mori',sans-serif;
-    src: url('./web-fonts/PPMori/PPMori-ExtralightItalic.woff') format('woff');
-    font-weight:100;
-    font-style: italic;
+  @font-face {
+  font-family: 'Mori',sans-serif;
+  src: url('./web-fonts/PPMori/PPMori-Extralight.woff') format('woff');
+  font-weight:100;
+  font-style: normal;
+  }
+  @font-face {
+  font-family: 'Mori',sans-serif;
+  src: url('./web-fonts/PPMori/PPMori-ExtralightItalic.woff') format('woff');
+  font-weight:100;
+  font-style: italic;
 }
 /*Book*/
-@font-face {
-    font-family: 'Mori',sans-serif;
-    src: url('./web-fonts/PPMori/PPMori-Book.woff') format('woff');
-    font-weight:300;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Mori',sans-serif;
-    src: url('./web-fonts/PPMori/PPMori-BookItalic.woff') format('woff');
-    font-weight:300;
-    font-style: italic;
+  @font-face {
+  font-family: 'Mori',sans-serif;
+  src: url('./web-fonts/PPMori/PPMori-Book.woff') format('woff');
+  font-weight:300;
+  font-style: normal;
+  }
+  @font-face {
+  font-family: 'Mori',sans-serif;
+  src: url('./web-fonts/PPMori/PPMori-BookItalic.woff') format('woff');
+  font-weight:300;
+  font-style: italic;
 }
 /*Regular*/
-@font-face {
-    font-family: 'Mori',sans-serif;
-    src: url('./web-fonts/PPMori/PPMori-Regular.woff') format('woff');
-    font-weight:400;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Mori',sans-serif;
-    src: url('./web-fonts/PPMori/PPMori-RegularItalic.woff') format('woff');
-    font-weight:400;
-    font-style: italic;
+  @font-face {
+  font-family: 'Mori',sans-serif;
+  src: url('./web-fonts/PPMori/PPMori-Regular.woff') format('woff');
+  font-weight:400;
+  font-style: normal;
+  }
+  @font-face {
+  font-family: 'Mori',sans-serif;
+  src: url('./web-fonts/PPMori/PPMori-RegularItalic.woff') format('woff');
+  font-weight:400;
+  font-style: italic;
 }
 /*Semibold*/
-@font-face {
-    font-family: 'Mori',sans-serif;
-    src: url('./web-fonts/PPMori/PPMori-SemiBold.woff') format('woff');
-    font-weight:600;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Mori',sans-serif;
-    src: url('./web-fonts/PPMori/PPMori-SemiBoldItalic.woff') format('woff');
-    font-weight:600;
-    font-style: italic;
+  @font-face {
+  font-family: 'Mori',sans-serif;
+  src: url('./web-fonts/PPMori/PPMori-SemiBold.woff') format('woff');
+  font-weight:600;
+  font-style: normal;
+  }
+  @font-face {
+  font-family: 'Mori',sans-serif;
+  src: url('./web-fonts/PPMori/PPMori-SemiBoldItalic.woff') format('woff');
+  font-weight:600;
+  font-style: italic;
 }
 /*Extrabold*/
-@font-face {
-    font-family: 'Mori',sans-serif;
-    src: url('./web-fonts/PPMori/PPMori-ExtraBold.woff') format('woff');
-    font-weight:800;
+  @font-face {
+  font-family: 'Mori',sans-serif;
+  src: url('./web-fonts/PPMori/PPMori-ExtraBold.woff') format('woff');
+  font-weight:800;
+  font-style: normal;
+  }
+  @font-face {
+  font-family: 'Mori',sans-serif;
+  src: url('./web-fonts/PPMori/PPMori-ExtraBoldItalic.woff') format('woff');
+  font-weight:800;
+  font-style: italic;
+}
+
+/*ID*/
+/*home*/
+#hero {
+  background-color: #F1F1F1;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+  #hero h1 {
+    font-size: 1.75em;
+    font-weight: 600;
     font-style: normal;
+    margin-bottom: 0;
+    }
+  #hero h4 {
+    margin-top: 0;
+    }
+
+#case_studies .row{
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  padding-bottom: 25px;
+  border-bottom: solid #7f7f7f;
+  border-bottom-width: 1px;
+  }
+
+#contact {
+  text-align: center;
+  }
+    .icon_link {
+      padding: 4px;
+      }
+
+/*LAYOUT STYLING*/
+* {
+  box-sizing: border-box;
 }
-@font-face {
-    font-family: 'Mori',sans-serif;
-    src: url('./web-fonts/PPMori/PPMori-ExtraBoldItalic.woff') format('woff');
-    font-weight:800;
-    font-style: italic;
+.container {
+  padding: 0 15px;
+}
+.logo {
+  max-width: 60px;
 }
 
-
-/*IMAGE RULES*/
+/*TYPE RULES*/
+/*body*/
 body {
     background-color: #F1F1F1;
     font-family: 'Mori', sans-serif;
@@ -93,8 +123,10 @@ body {
     font-weight: 300; /* Sets the font weight to 300 */
     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
     color: #111111;
-  }
+}
+
   
+/*headings*/
   h1, h2, h3, h4 {
     line-height: 1.4;
   }
@@ -119,15 +151,67 @@ body {
     font-size: 1.35em;
     font-weight: 100;
     font-style: normal;
-  }
+}
 
-  
+
+main {
+  padding-top:160px;
+}
+header {
+  /*dropshadow*/
+  background-color: #F1F1F1;
+  /*start ------------*/
+	width: [object Object]px; 
+	height: [object Object]px; 
+	background: #F1F1F1; 
+	border: solid #F1F1F1 1px; 
+	box-shadow: -3px 19px 24px rgba(0, 0, 0, 0.1)  ; 
+	-webkit-box-shadow: -3px 19px 24px rgba(0, 0, 0, 0.1)  ; 
+	-moz-box-shadow: -3px 19px 24px rgba(0, 0, 0, 0.1)  ; 
+  /*position*/
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  /*padding*/
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  /*margin
+  margin: 10px;*/
+  /*border*/
+  border-bottom: 3px;
+}
+
+
+/*NAVIGATION*/
+/*general*/
+  .nav {
+    display: inline-block; width: 100%;
+  }
+  /*lists*/
+  nav > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  nav > ul > li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  nav > ul > li > a:visited {
+    padding: 0 15px;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+
 /*IMAGE RULES*/
   img {
     width: 100%;
-  }
+}
 
-  
+
 /*BUTTON STYLING*/
   .button {
     display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block*/
@@ -139,8 +223,7 @@ body {
     border-bottom: 2px solid #dadada; /* border-width, type, colour */
     transition: 0.2s opacity;
   }
-
-  /*Normal states*/
+/*button_general*/
   .button:hover {
     color: #F1F1F1;
     opacity: 0.8; /* reduces opacity of button to 80% */
@@ -152,8 +235,7 @@ body {
   .button:active {
     color: #111111;
   }
-
-  /*Contact states*/
+/*button_contact*/
   .button.contact {
     background-color: transparent;
     color: #094FBE;
@@ -166,10 +248,10 @@ body {
   }
   .button.contact:active {
     color: #111111;
-  }
+}
 
 
-  /*HYPERLINK STYLING*/
+/*HYPERLINK STYLING*/
   a {
     color: #0d59ef;
     text-decoration: none; /* no underlining, before hover */
