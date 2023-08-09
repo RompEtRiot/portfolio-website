@@ -113,6 +113,10 @@ Secondary Color (off_black): #111111;
 .logo {
   max-width: 60px;
 }
+.persona{
+  display: inline-block; width: 100%; height: 100%;
+  /*min-width: 140px; min-height: 140px; max-width: 140px; max-height: 140px;*/
+}
 
 /*TYPE RULES*/
 /*body*/
@@ -125,7 +129,6 @@ body {
     color: #111111;
 }
 
-  
 /*headings*/
   h1, h2, h3, h4 {
     line-height: 1.4;
