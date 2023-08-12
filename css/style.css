@@ -99,7 +99,7 @@ Secondary Color (off_black): #111111;
   border-bottom: solid #7f7f7f;
   border-bottom-width: 1px;
   }
-
+/*case studies*/
 #area{
   border-bottom: solid #7f7f7f;
   border-bottom-width: 1px;
@@ -112,7 +112,9 @@ Secondary Color (off_black): #111111;
     margin-top: 40px;
     margin-bottom: 5px;
   }
-  
+#subjects h4{
+  margin-bottom: 0;
+}
 /*general*/
 #contact {
   text-align: center;
@@ -340,7 +342,7 @@ th, td {
 
 
 /*ANIMATIONS*/
-.berlin-illustration {
+.toronto-illustration {
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -480,4 +482,14 @@ th, td {
 /*XL 1440px or higher*/
 @media only screen and (min-width: 1440px) {
 
+}
+
+/*ANIMATION*/
+@keyframes leaves-move {
+  from {transform: translate(0,0px);}
+  to {transform: translate(20px,0px);}
+}
+
+.leaves-ground {
+  animation: 3s leaves-move infinite alternate linear;
 }
