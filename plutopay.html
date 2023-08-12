@@ -14,7 +14,7 @@
     <body>
         <header>
             <div class="container">
-                <img src="img/global/logo.svg" class="logo" width="30" height="30" alt="Tatjana Dudas"><br><b>Tatjana Dudas</b>
+                <img src="img/global/logo.svg" class="logo" width="36" height="36" alt="Tatjana Dudas">
                 <nav>
                     <ul>
                     <li><a href="about.html">About</a></li><!--About--> 
@@ -49,7 +49,7 @@
                     </picture>
                 </div>
             </section>
-            <section title="challenge" class="container">
+            <section title=challenge id="area" class="container">
                 <div title="rule"><h2>Challenge</h2></div>
                 <div>
                     <p>How will PlutoPay distinguish itself from a litany of payment apps already available? This was the first question I asked myself, and set about solving for. To inform this question I conducted a SWOT analysis of PlutoPay’s closest competitors, and learned:</p>
@@ -63,7 +63,7 @@
                     <p>PlutoPay will facilitate group transactions in addition to individual transactions both domestically and internationally, at mid-market and transparent rates. Positioning itself as both transparent and specialized, serves a dual purpose: (1) Distinguishes PlutoPay from all-purpose competitors, and (2) allows PlutoPay to operate in the Canadian market — as the app is not seen as competing directly with Canada’s banking institution.</p>
                 </div>
             </section>
-            <section title="audience" class="container">
+            <section title= audience_pluto id="area" class="container">
                 <div title="rule"><h2>Audience</h2></div>
                 <div>
                     <p>The app's biggest draw is that it facilitates not only individual and domestic transactions, but group and international transactions as well. There are many reasons why a user would seek an app with this type of dual-purpose, as represented by the personae:</p>
@@ -74,27 +74,29 @@
                         <li><b>Online Shopper:</b>Core motivation is expense tracking and saving.</li>
                     </ul>
                 </div>
-                <section title="persona">
-                        <div title="traveller_1">
+                <section title="subjects" class="row">
+                    <div>  
+                        <div class="col-md-persona">
                             <img src="img/plutopay/persona_cullen@1x.png" class="persona" width="140" height="140" alt="A photo of a young male traveller">
                             <h4>Group Traveller</h4>
                             <p><b>Core motivation is</b> to share expenses while travelling internationally with their friends.</p>
                         </div>
-                        <div title="traveller_2">
+                        <div class="col-md-persona">
                             <img src="img/plutopay/persona_zoe@1x.png" class="persona" width="140" height="140" alt="A photo of a young female traveller">
                             <h4>Solo Traveller</h4>
                             <p><b>Core motivation is</b> to set personal spending limits and alerts to manage their spending.</p>
                         </div>
-                        <div title="student">
+                        <div class="col-md-persona">
                             <img src="img/plutopay/persona_sohaib@1x.png" class="persona" width="140" height="140" alt="A photo of a young male university student">
                             <h4>International Student</h4>
                             <p><b>Core motivation is</b> transparency concerning fee summaries and transaction journeys..</p>
                         </div>
-                        <div title="shopper">
+                        <div class="col-md-persona">
                             <img src="img/plutopay/persona_margo@1x.png" class="persona" width="140" height="140" alt="A photo of a mature female shopper">
                             <h4>Online Shopper</h4>
                             <p><b>Core motivation is</b> is expense tracking and saving.</p>
                         </div>
+                    </div>
                         <p>The personae were informed by user interviews and supplementary research. Findings not only supported the decision to specialize in group and domestic transactions but helped to identify the key demographic: millennial and Gen-Z.</p>
                 </section>
                 <div>
@@ -113,7 +115,7 @@
                     </ul>
                 </div>
             </section>
-            <section title="creation" class="container">
+            <section title="creation" id=area class="container">
                 <div title="rule"><h2>Creation</h2></div>
                 <div title="affinity">
                     <h3>Affinity Mapping</h3>
@@ -152,7 +154,7 @@
                 <div title="flows">
                     <h3>User Flows</h3>
                     <p>When crafting user flows, required and desirable features as well as the needs of traveller personae informed the decision to focus on transfer, card, and currency flows.</p>
-                    <div title="set of flows">
+                    <div title="set of flows" class="col-flex-3">
                         <div title="column 1">
                             <picture title="transfer">
                                 <source srcset="img/plutopay/userflow_transfer@1x.png"
@@ -197,142 +199,149 @@
                         </picture>
                 </div>
             </section>
-            <section title="testing" class="container">
+            <section title="testing" id=area class="container">
                 <div title="rule"><h2>Testing</h2></div>
-                <div>
                     <h3>Usability Test Insights</h3>
                     <p>Completion of high fidelity wireframes were followed by both a usability test and a preference test. This informed where and how to refine the wireframes, as well as time allocation.</p>
-                    <h4>Goal</h4>
-                    <ol>
-                        <li>Observing the speed and accuracy of task completion and;</li>
-                        <li>Gathering qualitative information on how participants understood core features and their relation to each-other.</li>
-                    </ol>
-                    <h4>Objectives</h4>
-                    <ul>
-                        <li>Do participants understand that the app facilitates both domestic and foreign transfers?</li>
-                        <li>Do participants understand that currencies and cards held operate independently from one another?</li>
-                        <li>Do participants understand that currencies refer to monies held and transfers are the sending of held monies?</li>
-                    </ul>
+                    <div class="col-flex-2">
+                        <div>    
+                            <h4>Goal</h4>
+                            <ol>
+                                <li>Observing the speed and accuracy of task completion and;</li>
+                                <li>Gathering qualitative information on how participants understood core features and their relation to each-other.</li>
+                            </ol>
+                        </div>
+                        <div>    
+                        <h4>Objectives</h4>
+                        <ul>
+                            <li>Do participants understand that the app facilitates both domestic and foreign transfers?</li>
+                            <li>Do participants understand that currencies and cards held operate independently from one another?</li>
+                            <li>Do participants understand that currencies refer to monies held and transfers are the sending of held monies?</li>
+                        </ul>
+                        </div>
+                    </div>
                 </div>
-                <div title="testing results">
+                <div title="testing results" class="col-flex-3">
                     <div title="column 1">
-                        <h3>Currency use</h3>
-                        <picture title="currency use">
-                            <source srcset="img/plutopay/testing_cards@1x.png"
-                        media="(max-width:767px)">
-                            <img src="img/plutopay/testing_cards@2x.png"
-                        alt="Rework of PlutoPay's currency screen">
-                        </picture>
-                            <div title="paragraph">
-                            <p><b>Problem:</b>Unclear that currencies are not tethered to individual cards.</p>
-                            <p><b>Solution:</b></p>
-                            <ul>
-                                <li>(a) Add the ability for users to limit the currencies an card can draw from, with the inferred default being draw from any available currency.</li>
-                            </ul>
+                        <div>
+                            <picture title="currency use">
+                                <source srcset="img/plutopay/testing_cards@1x.png"
+                            media="(max-width:767px)">
+                                <img src="img/plutopay/testing_cards@2x.png"
+                            alt="Rework of PlutoPay's currency screen">
+                            </picture>
+                            <h3>Currency use</h3>
+                                <div title="paragraph">
+                                    <p><b>Problem:</b>Unclear that currencies are not tethered to individual cards.</p>
+                                    <p><b>Solution:</b></p>
+                                    <p>(a) Add the ability for users to limit the currencies an card can draw from, with the inferred default being draw from any available currency.</p>
+                                </div>
                         </div>
                     </div>
                     <div title="column 2">
-                        <h3>Transfer method</h3>
-                        <picture title="transfer method">
-                            <source srcset="img/plutopay/testing_transfer@1x.png"
-                        media="(max-width:767px)">
-                            <img src="img/plutopay/testing_transfer@2x.png"
-                        alt="Rework of PlutoPay's transfer method selection screen">
-                        </picture>
-                            <div title="paragraph">
-                            <p><b>Problem:</b>Unclear that transfers can draw from users currency portfolio.</p>
-                            <p><b>Solution:</b></p>
-                            <ul>
-                                <li>(b) Notify users if they have held currencies available that they can draw from for the transfer.</li>
-                                <li>(c) Allow users to transfer from held currencies, if the transfer currency and held currency match.</li>
-                            </ul>
+                        <div>
+                            <picture title="transfer method">
+                                <source srcset="img/plutopay/testing_transfer@1x.png"
+                            media="(max-width:767px)">
+                                <img src="img/plutopay/testing_transfer@2x.png"
+                            alt="Rework of PlutoPay's transfer method selection screen">
+                            </picture>
+                            <h3>Transfer method</h3>
+                                <div title="paragraph">
+                                    <p><b>Problem:</b> Unclear that transfers can draw from users currency portfolio.</p>
+                                    <p><b>Solution:</b></p>
+                                    <p>(b) Notify users if they have held currencies available that they can draw from for the transfer.</p>
+                                    <p>(c) Allow users to transfer from held currencies, if the transfer currency and held currency match.</p>
+                            </div>
                         </div>
                     </div>
                     <div title="column 3">
-                        <h3>Trust Rating</h3>
-                        <picture title="trust rating">
-                            <source srcset="img/plutopay/testing_rating@1x.png"
-                        media="(max-width:767px)">
-                            <img src="img/plutopay/testing_rating@2x.png"
-                        alt="Rework of how a contacts trustworthiness is expressed to users">
-                        </picture>
-                            <div title="paragraph">
-                            <p><b>Problem:</b>Same symbol is used to denote trust rating and primary card.</p>
-                            <p><b>Solution:</b></p>
+                        <div>
+                            <picture title="trust rating">
+                                <source srcset="img/plutopay/testing_rating@1x.png"
+                            media="(max-width:767px)">
+                                <img src="img/plutopay/testing_rating@2x.png"
+                            alt="Rework of how a contacts trustworthiness is expressed to users">
+                            </picture>
+                            <h3>Trust Rating</h3>
+                                <div title="paragraph">
+                                    <p><b>Problem:</b> Same symbol is used to denote trust rating and primary card.</p>
+                                    <p><b>Solution:</b></p>
+                                    <p>(d) Change trust ratings star to coloured-dot system. In which red means warning, yellow means caution, and green means trustworthy.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://www.figma.com/proto/k2vNcrBCN3JMGZ5kTfR42R/4.7-Usability-Prototype-Revision-v1_Tatjana-Dudas?page-id=2%3A16&type=design&node-id=8-1409&viewport=616%2C545%2C0.08&t=YNOdvFhUeMiVmALt-1&scaling=min-zoom&starting-point-node-id=15%3A1821&mode=design" class="button_span" target="_blank">Experience prototype</a>
+            </section>
+            <section title="Execution" id=area class="container">
+                <div title="rule"><h2>Execution</h2></div>
+                <div class="row">
+                    <div title="quick dash showcase">
+                        <div title="column 1" class="column col-md-6 col-lg-7">
+                            <picture title="quick dash">
+                                <source srcset="img/plutopay/execution_home@1x.png"
+                            media="(max-width:767px)">
+                                <img src="img/plutopay/execution_home@2x.png"
+                            alt="Hi fidelity screen of PlutoPay's main dashboard">
+                            </picture>
+                        </div>
+                        <div title="column 2" class="column col-md-6 col-lg-5">
+                            <h3>Quick dash</h3>
+                            <p>The dashboard provides easy access to a person’s primary card and recent activity. Allowing them to make purchases or transfer on dashboard load.</p>
                             <ul>
-                                <li>(d) Change trust ratings star to coloured-dot system. In which red means warning, yellow means caution, and green means trustworthy.</li>
+                                <li>Access primary card</li>
+                                <li>Freeze primary card</li>
+                                <li>Quick buy or transfer</li>
+                                <li>View recent activity</li>
                             </ul>
                         </div>
                     </div>
-                    <a href="https://www.figma.com/proto/k2vNcrBCN3JMGZ5kTfR42R/4.7-Usability-Prototype-Revision-v1_Tatjana-Dudas?page-id=2%3A16&type=design&node-id=8-1409&viewport=616%2C545%2C0.08&t=YNOdvFhUeMiVmALt-1&scaling=min-zoom&starting-point-node-id=15%3A1821&mode=design" target="_blank">Experience prototype</a>
-                </div>
-            </section>
-            <section title="Execution" class="container">
-                <div title="rule"><h2>Execution</h2></div>
-                <div title="quick dash showcase">
-                    <div title="column 1">
-                        <picture title="quick dash">
-                            <source srcset="img/plutopay/execution_home@1x.png"
-                        media="(max-width:767px)">
-                            <img src="img/plutopay/execution_home@2x.png"
-                        alt="Hi fidelity screen of PlutoPay's main dashboard">
-                        </picture>
+                    <div title="pay showcase">
+                        <div title="column 1" class="column col-md-6 col-lg-7">
+                            <picture title="pay" class="column col-md-6 col-lg-5">
+                                <source srcset="img/plutopay/execution_transfer@1x.png"
+                            media="(max-width:767px)">
+                                <img src="img/plutopay/execution_transfer@2x.png"
+                            alt="Hi fidelity screen of PlutoPay's transfer method selection">
+                            </picture>
+                        </div>
+                        <div title="column 2" class="column col-md-6 col-lg-5">
+                            <h3>Pay, your way</h3>
+                            <p>Users can select from multiple transfer methods with varying fees. These fees allow PlutoPay to expand its suite of holdable currencies that would otherwise be too expensive to adopt. Perfect for travel.</p>
+                            <ul>
+                                <li>Multiple transfer speeds</li>
+                                <li>Low-cost options</li>
+                                <li>Fee transparency</li>
+                                <li>Multiple methods</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div title="column 2">
-                        <h3>Quick dash</h3>
-                        <p>The dashboard provides easy access to a person’s primary card and recent activity. Allowing them to make purchases or transfer on dashboard load.</p>
-                        <ul>
-                            <li>Access primary card</li>
-                            <li>Freeze primary card</li>
-                            <li>Quick buy or transfer</li>
-                            <li>View recent activity</li>
-                        </ul>
-                    </div>
-                </div>
-                <div title="pay showcase">
-                    <div title="column 1">
-                        <h3>Pay, your way</h3>
-                        <p>Users can select from multiple transfer methods with varying fees. These fees allow PlutoPay to expand its suite of holdable currencies that would otherwise be too expensive to adopt. Perfect for travel.</p>
-                        <ul>
-                            <li>Multiple transfer speeds</li>
-                            <li>Low-cost options</li>
-                            <li>Fee transparency</li>
-                            <li>Multiple methods</li>
-                        </ul>
-                    </div>
-                    <div title="column 2">
-                        <picture title="pay">
-                            <source srcset="img/plutopay/execution_transfer@1x.png"
-                        media="(max-width:767px)">
-                            <img src="img/plutopay/execution_transfer@2x.png"
-                        alt="Hi fidelity screen of PlutoPay's transfer method selection">
-                        </picture>
+                    <div title="costs showcase">
+                        <div title="column 1" class="column col-md-6 col-lg-7">
+                            <picture title="costs">
+                                <source srcset="img/plutopay/execution_summary@1x.png"
+                            media="(max-width:767px)">
+                                <img src="img/plutopay/execution_summary@2x.png"
+                            alt="Hi fidelity screen of PlutoPay's fee summary">
+                            </picture>
+                        </div>
+                        <div title="column 2" class="column col-md-6 col-lg-5">
+                            <h3>Clear cut costs</h3>
+                            <p>Fees are highlighted during the course of all PlutoPay transactions. Ensuring exchange and transfer fees do not catch users off-guard.</p>
+                            <ul>
+                                <li>Fee estimation</li>
+                                <li>Archive transactions</li>
+                                <li>Rate history</li>
+                                <li>Detailed summaries</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div title="costs showcase">
-                    <div title="column 1">
-                        <picture title="costs">
-                            <source srcset="img/plutopay/execution_summary@1x.png"
-                        media="(max-width:767px)">
-                            <img src="img/plutopay/execution_summary@2x.png"
-                        alt="Hi fidelity screen of PlutoPay's fee summary">
-                        </picture>
-                    </div>
-                    <div title="column 2">
-                        <h3>Clear cut costs</h3>
-                        <p>Fees are highlighted during the course of all PlutoPay transactions. Ensuring exchange and transfer fees do not catch users off-guard.</p>
-                        <ul>
-                            <li>Fee estimation</li>
-                            <li>Archive transactions</li>
-                            <li>Rate history</li>
-                            <li>Detailed summaries</li>
-                        </ul>
-                    </div>
-                </div>
-                <a href="https://www.figma.com/proto/Xo7AOzQZ2syXuszmp0IwJe/6.7-Iterative-Journey-v1_Tatjana-Dudas?page-id=2%3A16&type=design&node-id=1393-11051&viewport=523%2C549%2C0.08&t=yKczRBSLsXdWzGZ8-1&scaling=min-zoom&starting-point-node-id=1380%3A13036&show-proto-sidebar=1&mode=design">Explore the Currency Flow</a>
+                <a href="https://www.figma.com/proto/Xo7AOzQZ2syXuszmp0IwJe/6.7-Iterative-Journey-v1_Tatjana-Dudas?page-id=2%3A16&type=design&node-id=1393-11051&viewport=523%2C549%2C0.08&t=yKczRBSLsXdWzGZ8-1&scaling=min-zoom&starting-point-node-id=1380%3A13036&show-proto-sidebar=1&mode=design" class="button_span" target="_blank">Explore Currency Flow</a>    
             </section>
             <section title="reflection" class="container">
-                <div>
+                <div class="col-flex-3">
                     <div title="column 1">
                         <h3>What I learned</h3>
                         <p>The information density of the transfer and currency flows posed an interesting challenge.  Engineering ways of living up to PlutoPays dedication to transparency, while crafting a straightforward user experience and maintaining a clean interface, was rewarding.</p>
