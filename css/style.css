@@ -404,11 +404,9 @@ th, td {
     display: none;
   }
 
-
   .col-md-6 {
     width: 50%;
   }
-  
   [class*="col-"] {
     float: left;
     padding-left: 10px;

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <!--START of head-->   
+    <head>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://kit.fontawesome.com/be8a515e7c.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tatjana Dudás</title>
+        <link rel="icon" type="image/png" href="img/global/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="img/global/favicon-16x16.png" sizes="16x16">
+    </head>
+    <!--START of body-->   
+    <body>
+        <header>
+            <div class="container">
+                <div class="navtoggle" id="myNavtoggle">
+                    <a href="index.html"><img class="logo" src="img/global/logo.svg" width="36" height="36" alt="Tatjana Dudas"></a>
+                        <nav>
+                            <ul>
+                            <li><a href="about.html">About</a></li><!--About--> 
+                            <li><a href="work.html">Case Study</a></li><!--Work-->
+                            <li><a href="#contact" onclick="menuToggle()">Let's Talk</a></li><!--Contact-->
+                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                            </ul>
+                        </nav>
+                </div>
+            </div>
+        </header>
+    <!--START of main-->
+        <main>
+            <section class="container">
+                <div id="case_studies">
+                    <div>
+                        <h2>Case studies</h2>
+                        <div class="row"><!--PLUTOPAY-->
+                            <div class="column col-md-6 col-lg-7">
+                                <picture>
+                                    <source srcset="img/plutopay/thumb_pluto@1x.png"
+                                media="(max-width:767px)">
+                                    <img src="img/plutopay/thumb_pluto@2x.png"
+                                alt="PlutoPay thumbnail">
+                                </picture>
+                            </div>
+                            <div class="column col-md-6 col-lg-5">
+                                <h3>PlutoPay</h3>
+                                <p>A thesis project that answers the call for a cost-conscious and secure way to pay for personal and group expenses, outside of one’s home or host country, crafted from the ground up.</p>
+                                <a href="plutopay.html" class="button">Read more</a>
+                            </div>
+                        </div>
+                        <div class="row"><!--CH ONBOARDING-->
+                            <div class="column col-md-6 col-lg-7">
+                                <picture>
+                                    <source srcset="img/ch_onboarding/thumb_ch@1x.png"
+                                media="(max-width:767px)">
+                                    <img src="img/ch_onboarding/thumb_ch@2x.png"
+                                alt="Constant Health onboarding thumbnail">
+                                </picture>
+                            </div>
+                            <div class="column col-md-6 col-lg-5">
+                                <h3>Constant Health Extended Onboarding</h3>
+                                <p>A look at improving the progressive onboarding of the Constant Health app to help new and returning users recall and revisit what they have learned.</p>
+                                <a href="#" class="button">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    <!--START of footer-->       
+        <footer id="contact">
+            <section title="footer" class="container">
+                <div title="outreach">
+                 <h2>Get in Touch</h2>
+                    <p>
+                    Like my work? Get in touch:<br>
+                    <a href="mailto:hi@dudasgraphics.design" class="button contact">tjdudas.design@gmail.com</a> <br><!--Will need to replace with new domain-->
+                    <!--P: <a href="tel:0000000000">(000)000-00000</a>Possibly use a telegram number-->
+                    </p>
+                </div>
+                <div title="links">
+                    <a href="https://www.behance.net/tatjanaduds" target="_blank" class="icon_link">
+                        <!--<img src="http://via.placeholder.com/32x32" alt="Behance logo">-->
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_973_219)">
+                            <rect width="48" height="48" fill="white"/>
+                            <g clip-path="url(#clip1_973_219)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M48 0H0V48H48V0ZM17.1484 13C18.049 12.9833 18.9484 13.0756 19.8269 13.275C20.5665 13.4365 21.2687 13.737 21.8963 14.1605C22.4758 14.5817 22.9343 15.1479 23.2259 15.8023C23.5609 16.607 23.7226 17.4733 23.7002 18.3447C23.7383 19.3014 23.4939 20.2483 22.9976 21.0672C22.4755 21.8406 21.7538 22.4582 20.909 22.8547C22.0554 23.1637 23.0539 23.8717 23.725 24.8512C24.3692 25.889 24.693 27.0938 24.6559 28.3148C24.6771 29.2883 24.4758 30.2538 24.0674 31.1377C23.6898 31.9087 23.137 32.5807 22.4531 33.0998C21.7491 33.6132 20.9568 33.993 20.1156 34.2204C19.2433 34.4617 18.3422 34.5829 17.4371 34.5807H7.5V13H17.1484ZM16.575 21.7285C17.2827 21.7577 17.9793 21.5459 18.5509 21.1277C18.8246 20.884 19.0376 20.5796 19.1727 20.2389C19.3078 19.8982 19.3614 19.5306 19.3291 19.1655C19.3474 18.7391 19.2625 18.3146 19.0816 17.928C18.9282 17.6203 18.6895 17.363 18.3941 17.1869C18.0949 16.9931 17.7588 16.8634 17.4069 16.806C17.0251 16.7321 16.6366 16.6984 16.2477 16.7057H12.0017V21.7478H16.575V21.7285ZM16.8225 30.9163C17.2505 30.9221 17.6775 30.8759 18.0944 30.7788C18.4753 30.6947 18.8366 30.5383 19.1586 30.3182C19.4741 30.0981 19.729 29.8021 19.8997 29.4574C20.0977 29.0179 20.1886 28.5377 20.1651 28.0563C20.208 27.6175 20.1499 27.1748 19.9952 26.762C19.8406 26.3492 19.5934 25.9773 19.2728 25.6748C18.5931 25.1742 17.7602 24.9262 16.9174 24.9735H12.0017V30.9163H16.8225ZM31.0675 30.8365C31.4208 31.164 31.8371 31.4163 32.2909 31.578C32.7447 31.7396 33.2267 31.8074 33.7075 31.777C34.4697 31.7963 35.2172 31.5644 35.8346 31.117C36.3369 30.7904 36.7173 30.3071 36.9167 29.742H40.5069C40.1243 31.3505 39.1902 32.7741 37.8669 33.7653C36.5973 34.6079 35.0971 35.0347 33.5741 34.9863C32.4872 35.0005 31.4084 34.7962 30.402 34.3854C29.4916 34.0057 28.6751 33.4318 28.0095 32.7038C27.3464 31.9409 26.837 31.0571 26.5094 30.1009C26.1415 29.0321 25.9615 27.9077 25.9772 26.7775C25.9705 25.6663 26.1566 24.5623 26.5272 23.5147C27.0251 22.0408 27.9771 20.7626 29.2466 19.8634C30.5161 18.9642 32.0378 18.4903 33.5934 18.5097C34.7418 18.4857 35.8775 18.7544 36.8934 19.2907C37.8116 19.7942 38.6038 20.4994 39.2102 21.3532C39.8306 22.249 40.2753 23.2546 40.5206 24.3163C40.7897 25.4564 40.8856 26.6305 40.8052 27.7992H30.1119C30.0252 28.8971 30.3678 29.9859 31.0675 30.8365ZM35.759 22.6292C35.4598 22.3298 35.0998 22.0981 34.7035 21.9497C34.3072 21.8012 33.8836 21.7394 33.4614 21.7684C32.9012 21.747 32.3451 21.8712 31.8471 22.1287C31.4524 22.346 31.1039 22.6384 30.8214 22.9894C30.571 23.3185 30.3844 23.6916 30.2714 24.0894C30.1695 24.4212 30.1058 24.7635 30.0816 25.1097H36.705C36.6473 24.2072 36.3185 23.3431 35.7617 22.6305L35.759 22.6292ZM37.5273 14.441H29.2278V16.5627H37.5273V14.441Z" fill="black"/>
+                            </g>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_973_219">
+                            <rect width="48" height="48" fill="white"/>
+                            </clipPath>
+                            <clipPath id="clip1_973_219">
+                            <rect width="48" height="48" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                    </a>
+                    <a href="https://github.com/RompEtRiot" target="_blank" class="icon_link">
+                        <!--<img src="http://via.placeholder.com/32x32" alt="GitHub logo">-->
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_973_221)">
+                            <rect width="48" height="48" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M48 0H0V48H17.9927C17.9961 47.6163 18.0311 43.5973 18.019 41.5349C11.3432 42.9847 9.93473 38.3172 9.93473 38.3172C8.84298 35.5458 7.26945 34.8077 7.26945 34.8077C5.09038 33.3181 7.43447 33.3476 7.43447 33.3476C9.84338 33.5185 11.1105 35.8213 11.1105 35.8213C13.2512 39.4885 16.7283 38.4291 18.0956 37.8162C18.3136 36.2648 18.9324 35.2069 19.619 34.6073C14.2899 34.0017 8.68681 31.942 8.68681 22.7454C8.68681 20.1258 9.62238 17.9836 11.1576 16.3054C10.9101 15.6984 10.0865 13.2586 11.3919 9.95387C11.3919 9.95387 13.4074 9.30855 17.9924 12.4143C19.9063 11.8825 21.9601 11.6158 24.0007 11.607C26.0384 11.6158 28.0922 11.8825 30.009 12.4143C34.5911 9.30855 36.6022 9.95387 36.6022 9.95387C37.912 13.2586 37.0884 15.6984 36.8409 16.3054C38.3791 17.9836 39.3087 20.1258 39.3087 22.7454C39.3087 31.9656 33.6968 33.9944 28.35 34.5881C29.2119 35.3292 29.9795 36.7937 29.9795 39.0332C29.9795 41.9096 30.0066 47.5431 30.0089 48H48V0Z" fill="black"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_973_221">
+                            <rect width="48" height="48" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/tatjanadudas" target="_blank" class="icon_link">
+                        <!--<img src="http://via.placeholder.com/32x32" alt="linked-in logo">-->
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_973_218)">
+                            <rect width="48" height="48" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M48 0H0V48H48V0ZM10.7738 14.9066C13.0735 14.9066 14.9378 13.0423 14.9378 10.7426C14.9378 8.44289 13.0735 6.57861 10.7738 6.57861C8.4741 6.57861 6.60982 8.44289 6.60982 10.7426C6.60982 13.0423 8.4741 14.9066 10.7738 14.9066ZM18.7513 17.9839H25.6524V21.1453C25.6524 21.1453 27.5251 17.3999 32.6204 17.3999C37.1657 17.3999 40.931 19.639 40.931 26.464V40.856H33.7795V28.2079C33.7795 24.1818 31.63 23.739 29.9921 23.739C26.593 23.739 26.011 26.671 26.011 28.7331V40.856H18.7513V17.9839ZM14.4037 17.9839H7.14395V40.856H14.4037V17.9839Z" fill="black"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_973_218">
+                            <rect width="48" height="48" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                    </a>
+                </div>
+                <div>
+                    <p>Copyright © 2023 Tatjana Dudás. <br>All rights reserved.</p>
+                </div>
+            </section>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
