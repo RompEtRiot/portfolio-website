@@ -4,6 +4,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://kit.fontawesome.com/be8a515e7c.js" crossorigin="anonymous"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Tatjana Dudás</title>
@@ -14,14 +15,17 @@
     <body>
         <header>
             <div class="container">
-                <img src="img/global/logo.svg" class="logo" width="36" height="36" alt="Tatjana Dudas">
-                <nav>
-                    <ul>
-                    <li><a href="about.html">About</a></li><!--About--> 
-                    <li><a href="work.html">Case Study</a></li><!--Work-->
-                    <li><a href="#contact">Let's Talk</a></li><!--Contact-->
-                    </ul>
-                </nav>
+                <div class="navtoggle" id="myNavtoggle">
+                    <img class="logo" src="img/global/logo.svg" width="36" height="36" alt="Tatjana Dudas">
+                        <nav>
+                            <ul>
+                            <li><a href="about.html">About</a></li><!--About--> 
+                            <li><a href="#case_studies" onclick="menuToggle()">Case Study</a></li><!--Work-->
+                            <li><a href="#contact" onclick="menuToggle()">Let's Talk</a></li><!--Contact-->
+                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                            </ul>
+                        </nav>
+                </div>
             </div>
         </header>
     <!--START of main-->
@@ -421,6 +425,7 @@
             </div>
         </section>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
