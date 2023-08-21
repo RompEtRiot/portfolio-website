@@ -85,6 +85,7 @@ Secondary Color (off_black): #111111;
     font-weight: 600;
     font-style: normal;
     margin-bottom: 0;
+    color:#094FBE
     }
   #hero h4 {
     font-size: 1.25em;
@@ -99,10 +100,13 @@ Secondary Color (off_black): #111111;
   border-bottom: solid #7f7f7f;
   border-bottom-width: 1px;
   }
-
 #subjects h4{
   margin-bottom: 0;
 }
+/*about*/
+#skills h3{
+  margin-top: 0px;
+  }
 /*general*/
 #contact {
   text-align: center;
@@ -125,12 +129,17 @@ Secondary Color (off_black): #111111;
   }
   .area h2 {
     margin-top: 52px;
+    color: #094FBE;
   }
   .area h3 {
     margin-top: 40px;
     margin-bottom: 5px;
   }
-
+.area_about {
+  border-bottom: solid #7f7f7f;
+  border-bottom-width: 1px;
+  padding-bottom: 52px;
+}
 .logo {
   max-width: 140px;
 }
@@ -342,6 +351,8 @@ th, td {
     color: #094FBE;
     /*text-transform: uppercase;*/
     border: 2px solid #094FBE;
+    margin-top: 10px;
+    margin-bottom: 5px;
   }
   .button.contact:hover {
     background-color: #094FBE;
@@ -469,10 +480,9 @@ th, td {
     font-size: 1.75em;
     margin-bottom: .5em;
     }
-  #hero p {
-    font-size: 1em;
-    display: inline-block;
-    width: 75%;
+  .area h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
   }
 }
 
