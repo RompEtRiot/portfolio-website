@@ -302,7 +302,7 @@ th, td {
   .button {
     display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block*/
     background-color: #094FBE;
-    color: #F1F1F1; /* override default link colour */
+    color: #F8F8F8; /* override default link colour */
     font-weight: 400;
     padding: 10px;
     border-radius: 3px;
@@ -313,7 +313,7 @@ th, td {
     display: inline-block; /*full span*/
     width: 100%;
     background-color: #094FBE;
-    color: #F1F1F1; /* override default link colour */
+    color: #F8F8F8; /* override default link colour */
     font-weight: 400;
     text-align: center;
     padding: 10px;
@@ -324,23 +324,23 @@ th, td {
 /*button_general*/
   .button:hover {
     color: #F1F1F1;
-    opacity: 0.8; /* reduces opacity of button to 80% */
+    opacity: 0.6; /* reduces opacity of button to 80% */
     text-decoration: underline;
   }
   .button:visited {
-    color:#cbcbcb
+    color:#F8F8F8
   }
   .button:active {
     color: #111111;
   }
   /*button_span*/
   .button_span:hover {
-    color: #F1F1F1;
+    color: #F8F8F8;
     opacity: 0.8; /* reduces opacity of button to 80% */
     text-decoration: underline;
   }
   .button_span:visited {
-    color:#cbcbcb
+    color:#F8F8F8
   }
   .button_span:active {
     color: #111111;
@@ -356,7 +356,7 @@ th, td {
   }
   .button.contact:hover {
     background-color: #094FBE;
-    color: #F1F1F1;
+    color: #F8F8F8;
   }
   .button.contact:active {
     color: #111111;
@@ -372,7 +372,7 @@ th, td {
   }
   a:hover,
   a:focus {
-  color: #cc6540;
+  color: #cc4040;
   text-decoration: underline; /* underlining, on hover */
   }
   a:visited { /* visited link */
