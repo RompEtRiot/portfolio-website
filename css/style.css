@@ -294,7 +294,7 @@ th {
 th, td {
   padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #dddddd;
 }
 
 
@@ -328,7 +328,7 @@ th, td {
     text-decoration: underline;
   }
   .button:visited {
-    color:#bababa
+    color:#cbcbcb
   }
   .button:active {
     color: #111111;
@@ -340,7 +340,7 @@ th, td {
     text-decoration: underline;
   }
   .button_span:visited {
-    color:#bababa
+    color:#cbcbcb
   }
   .button_span:active {
     color: #111111;
